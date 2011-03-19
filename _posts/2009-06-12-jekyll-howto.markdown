@@ -62,3 +62,10 @@ Wykonanie polecenia:
     ...
 
 wypisuje listę obsługiwanych języków programowania.
+
+<blockquote>
+<p>
+ Pan Bóg stworzył jedzenie, a diabeł kucharzy.
+</p>
+<p class="author">_ James Joyce</p>
+</blockquote>
