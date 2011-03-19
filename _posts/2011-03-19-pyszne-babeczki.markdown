@@ -1,41 +1,31 @@
 ï»¿
-
----
 layout: post
 title: Pyszne-babeczki
----
 
-<blockquote>
-<p>
- Pan BÃ³g stworzyÅ‚ jedzenie, a diabeÅ‚ kucharzy.
-</p>
-<p class="author">— James Joyce</p>
-</blockquote>
 
 # {{ page.title }}
 
 
-## Markdown
-
 ----
-*Smaczne, kolorowe i owocowe babeczki.  Wszystkim siê podobaj¹ i zawsze dobrze smakuj¹ :-)*
+*Smaczne, kolorowe i owocowe babeczki.  Wszystkim siÄ™ podobajÄ… i zawsze dobrze smakujÄ… :-)*
 ----
 
-**Sk³adniki na ciasto:**
+**SkÅ‚adniki na ciasto:**
 
-    + 2 szklanki m¹ki krupczatki
-    + 1/3 szklanki cukru pudru
-    + 200 g ch³odnego mas³a/margaryny
-    + 2 ¿ó³tka
+    * 2 szklanki mÄ…ki krupczatki
+    * 1/3 szklanki cukru pudru
+    * 200 g chÅ‚odnego masÅ‚a/margaryny
+    * 2 Å¼Ã³Å‚tka
 
 * * * *
 
-Sk³adniki ciasta posiekaæ no¿em, szybko zagnieœæ, w³o¿yæ do lodówki na 30 minut.  
-Ciastem wylepiæ oko³o 20 foremek do babeczek, wysmarowanych uprzednio t³uszczem  
-(najlepiej roztopiæ t³uszcz i dok³adnie wysmarowaæ pêdzelkiem ka¿d¹ z foremek). 
- Piec oko³o 15 minut w temperaturze 200 stopni. Masa budyniowa: ugotowaæ budynie  
- z po³owy iloœci mleka zalecanego na opakowaniu. Jeszcze ciep³ym budyniem nape³niæ babeczki.  
- Udekorowaæ owocami.
+SkÅ‚adniki ciasta posiekaÄ‡ noÅ¼em, szybko zagnieÅ›Ä‡, wÅ‚oÅ¼yÄ‡ do lodÃ³wki na 30 minut.  
+Ciastem wylepiÄ‡ okoÅ‚o 20 foremek do babeczek, wysmarowanych uprzednio tÅ‚uszczem  
+(najlepiej roztopiÄ‡ tÅ‚uszcz i dokÅ‚adnie wysmarowaÄ‡ pÄ™dzelkiem kaÅ¼dÄ… z foremek).  
+Piec okoÅ‚o 15 minut w temperaturze 200 stopni.  
+Masa budyniowa: ugotowaÄ‡ budynie z poÅ‚owy iloÅ›ci mleka zalecanego na opakowaniu. Jeszcze ciepÅ‚ym budyniem napeÅ‚niÄ‡ babeczki.
+
+UdekorowaÄ‡ owocami.
 
 * * * *
 
