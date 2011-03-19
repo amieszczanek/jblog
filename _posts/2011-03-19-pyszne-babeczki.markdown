@@ -1,4 +1,4 @@
-
+Ôªø
 
 ---
 layout: post
@@ -7,7 +7,7 @@ title: Pyszne-babeczki
 
 <blockquote>
 <p>
- Pan BÛg stworzy≥ jedzenie, a diabe≥ kucharzy.
+ Pan B√≥g stworzy≈Ç jedzenie, a diabe≈Ç kucharzy.
 </p>
 <p class="author">ó James Joyce</p>
 </blockquote>
