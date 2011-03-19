@@ -1,14 +1,9 @@
-﻿
-layout: post
-title: Pyszne-babeczki
-
-
-# {{ page.title }}
-
-
+﻿----
+Pyszne-babeczki
 ----
-*Smaczne, kolorowe i owocowe babeczki.  Wszystkim się podobają i zawsze dobrze smakują :-)*
-----
+
+_Smaczne, kolorowe i owocowe babeczki.  Wszystkim się podobają i zawsze dobrze smakują :-)_
+
 
 **Składniki na ciasto:**
 
@@ -23,6 +18,7 @@ Składniki ciasta posiekać nożem, szybko zagnieść, włożyć do lodówki na 
 Ciastem wylepić około 20 foremek do babeczek, wysmarowanych uprzednio tłuszczem  
 (najlepiej roztopić tłuszcz i dokładnie wysmarować pędzelkiem każdą z foremek).  
 Piec około 15 minut w temperaturze 200 stopni.  
+
 Masa budyniowa: ugotować budynie z połowy ilości mleka zalecanego na opakowaniu. Jeszcze ciepłym budyniem napełnić babeczki.
 
 Udekorować owocami.
