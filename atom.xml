@@ -4,22 +4,22 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Imię Nazwisko</title>
- <link href="http://sigma.inf.ug.edu.pl/~login_na_sigmie/atom.xml" rel="self"/>
- <link href="http://sigma.inf.ug.edu.pl/~login_na_sigmie/"/>
+ <title>Sobieska Aneta</title>
+ <link href="http://sigma.inf.ug.edu.pl/~amieszczanek/atom.xml" rel="self"/>
+ <link href="http://sigma.inf.ug.edu.pl/~amieszczanek/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://sigma.ug.edu.pl/~login_na_sigmie/</id>
+ <id>http://sigma.ug.edu.pl/~amieszczanek/</id>
  <author>
-   <name>Imię Nazwisko</name>
-   <email>login_na_sigmie@sigma.inf.ug.edu.pl</email>
+   <name>Sobieska Aneta</name>
+   <email>amieszczanek@sigma.inf.ug.edu.pl</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://sigma.inf.ug.edu.pl/~login_na_sigmie/{{ post.url }}"/>
+   <link href="http://sigma.inf.ug.edu.pl/~amieszczanek/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://sigma.ug.edu.pl/~login_na_sigmie/{{ post.id }}</id>
+   <id>http://sigma.ug.edu.pl/~amieszczanek/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
