@@ -1,10 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl-pl">
+<html lang="pl">
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta charset=utf-8">
    <title>{{ page.title }}</title>
+   <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></	 script>
+    <![endif]-->
+    <!-- <script src="http://code.jquery.com/jquery-1.4.4.min.js"></script> -->
    <meta name="author" content="Sobieska Aneta" />
    <link href="http://sigma.inf.ug.edu.pl/~amieszczanek/blog/atom.xml" rel="alternate" 
          title="Sobieska Aneta" type="application/atom+xml" />
@@ -15,22 +18,23 @@
 </head>
 <body>
 
-<div class="site span-21"><!--  showgrid -->
+<!--  showgrid -->
 
-  <div class="span-21" id="header">
-    <div id="logo" class="push-1 span-7">
-      <a href="/~amieszczanek/blog">Domowa_Kawiarenka@BLOG</a>
-    </div>
-    <div class="span-13 last">
-      <div class="append-7" id="links">
-        <a href="/~amieszczanek">home</a>
-      </div>
-    </div>
-  </div>
+  <header id="page_header">
+    <h1><a href="/~amieszczanek/blog">Klara@blog</a></h1>
 
   {{ content }}
 
-</div>
+  </header>
+
+  <footer id="page_footer">
+    <nav>
+      <ul>
+         <li><a href="/~amieszczanek">home</a></li>
+      </ul>
+    </nav>
+   <p>&copy; 2011 Sobieska Aneta </p>
+  </footer>
 
 </body>
 </html>

@@ -1,9 +1,9 @@
 ---
 layout: index
-title: Domowa_Kawiarenka
+title: Klara@blog
 ---
 
-<div id="home" class="prepend-1 span-13">
+<header id="header_home">
 
   <blockquote>
     <p>
@@ -12,16 +12,25 @@ title: Domowa_Kawiarenka
     <p class="author">- James Joyce</p>
   </blockquote>
   
-  <h1>Posty</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-  
-  <h1>Projekty Open Source</h1>
-  <ul class="posts">
-    <li><a href="http://github.com/wbzyl/jblog/">jBlog</a> — szablon jekyll-bloga</li>
-  </ul>
+  <section id="posts">
+    <article class="post">
+      <header id="post">
+        <h3>Posty</h3>
+	<nav>
+         {% for post in site.posts %}
+         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+         {% endfor %}
+        </nav>
+      </header>
+    </article>	
+   </section>
 
-</div>
+<>      
+<header id="Projekty">  
+       <h3>Projekty Open Source</h3>
+        <nav>
+         <li><a href="http://github.com/wbzyl/jblog/">jBlog</a> — szablon jekyll-bloga</li>
+        </nav>
+      </header>
+     </article>
+   </section>
