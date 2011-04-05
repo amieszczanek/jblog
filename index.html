@@ -14,18 +14,18 @@ title: Klara@blog
   
   <section id="posts">
         <h3>Posty</h3>
-	<nav>
+         <ol>
          {% for post in site.posts %}
          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
          {% endfor %}
-        </nav>
+         </ol>
    </section>
       
   <section id="Projekty">  
        <h3>Projekty Open Source</h3>
-        <nav>
-         <li><a href="http://github.com/wbzyl/jblog/">jBlog</a> — szablon jekyll-bloga</li>
-        </nav>
+        <ol>
+         <li><a href="http://github.com/wbzyl/jblog/">jBlog</a>— szablon jekyll-bloga</li>
+        </ol>
    </section>
 
 </header>
