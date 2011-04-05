@@ -17,7 +17,11 @@
 #logo a {
     color: #FF4500;
     text-decoration: underline;
+    clear: both;
+    display: block;
+    text-align: center;
 }
+
 #logo a:focus, #logo a:hover, #links a:focus, #links a:hover {
     color: #FFA07A;
 }
@@ -46,9 +50,9 @@ footer#page_footer {
 ul#cfl-menu a {
   display : block;
   width : 130px;
-  height : auto;
+  height : 200px;
   padding : 6px 20px 5px;
-  margin-bottom : 4px;
+  margin-bottom : 30px;
   font-weight : bold;
   color : #fff;
   text-align : left;
