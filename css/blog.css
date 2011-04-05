@@ -42,6 +42,43 @@ footer#page_footer {
 .post {
     color: blue;
 }
+
+ul#cfl-menu a {
+  display : block;
+  width : 140px;
+  height : auto;
+  padding : 6px 30px 5px;
+  margin-bottom : 4px;
+  font-weight : bold;
+  color : #fff;
+  text-align : left;
+  text-transform : uppercase;
+  text-decoration : none;
+  cursor : pointer; /* needed for opera due to .on styling */ 
+  background : #669933 url(images/cfl_link.gif);
+}
+
+ul#cfl-menu a:hover, ul#cfl-menu a:focus, ul#cfl-menu a:active {
+  background : #669900 url(images/cfl_linkback.gif);
+  color : yellow;
+  letter-spacing : 0.3em;
+}
+
+ul#cfl-menu a.on {
+  background : #669933 url(images/cfl_link_on.gif);
+  color : #000;
+  text-align : right;
+  letter-spacing : 0.3em;
+}
+
+ul#cfl-menu a.on:hover, ul#cfl-menu a.on:focus, ul#cfl-menu a.on:active {
+  background : #669933 url(images/cfl_link_on.gif);
+  color : #000;
+  text-align : right;
+  letter-spacing : 0.3em;
+  cursor : default;
+}
+
 html {
     background-color: #FFE4B5;
     height: 100%;

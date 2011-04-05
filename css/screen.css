@@ -251,4 +251,10 @@ a[href$=".rss"], a[href$=".rdf"] {background-image:url(icons/feed.png);}
 a[href^="aim:"] {background-image:url(icons/im.png);}
 
 /* blog */
-body {font-size: 16px; line-height: 1.5;}
+body {font-size: 16px; line-height: 1.5;
+ul#cfl-menu {
+  width : 200px;
+  margin : 15px auto;
+}
+}
+
