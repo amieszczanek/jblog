@@ -23,22 +23,37 @@ W pierwszym etapie zamieniłam nagłówki w plikach.html. Bardzo przydatne są s
 
 
 ## Etapy zmiany szablonu z Html4 na Html5
+ 
+* Zmiana nagłówka strony:  
 
-1. Zmiana nagłówka strony:
-Html4 było: [<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">]
-Html5 jest: [<!DOCTYPE html>]
+Html4 było: 
+   
+<code>!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"</code>    
+<code>"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"></code>  
 
-O wiele łatwiejsze do zapamiętania ;)
+ Html5 jest:    
 
-2. Zmiana kodowania:
-Html4 było: [<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl-pl">
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />]
-Html5 jest: [<html lang="pl">]
-<head>
-   [<meta charset=utf-8">]
+<code>!DOCTYPE html</code>
 
-Czy to nie jest piękne ;)
+* Zmiana kodowania:    
 
+Html4 było:    
 
+<code>html xmlns="http://www.w3.org/1999/xhtml"</code>    
+<code>xml:lang="pl" lang="pl-pl"</code>    
+<code>meta http-equiv="content-type" content="text/html; charset=utf-8"</code>    
+
+Html5 jest:    
+
+<code>html lang="pl"</code>    
+<code>meta charset=utf-8"</code>
+
+* Na koniec dodałam elementy charakteryzujące używanie Html5 a mianowicie:  
+
++ *Header* służy przedewszystkim do określania nagłówka strony ale może okręślać nagłowek jakieś określonej sekcji. Wewnątrz tego znacznika znajdują się elementy, które standardowo tworzą nagłówek strony, a więc tytuł strony lub logo.
++ *Navigacja* (Nav) może zawierać całe menu z linkami do głównych podstron, lub tylko np. linki wstecz/dalej.  
++ *Section* opisuje sekcję dokumentu, która może zawierać wszystkie możliwe inne znaczniki. Oczywiście, jedna sekcja może zawierać (nawet wielokrotnie) zagnieżdżone sekcje.  
++ Tagu *Aside* oskonale się nadaje jako pasek boczny strony, ponieważ znajdujące się tam elementy odnoszą się do głownej treści.  
++ *Footer* oznacza stopkę, awięc znajdują się tam elementy które zazwyczaj umieszczamy na dole strony.
+
+#Czy to nie jest piękne ;)#
