@@ -31,8 +31,9 @@ section#Projekty {
     padding-top: 5%;
 }
 section#content {
-    -moz-border-radius: 10% 10% 10% 10%;
     color: black;
+    font-size: 90%;
+    font-family: fantasy;
 }
 header#header_home {
     color: yellow;
@@ -58,6 +59,8 @@ ol a {
 }
 
 ul#cfl-menu a {
+    -moz-box-shadow: 5px 7px 17px #D2691E;
+    -webkit-box-shadow:5px 7px 17px #D2691E;
     background: url("images/cfl_link.gif") repeat scroll 0 0 #D2B48C;
     color: #FFFFFF;
     cursor: pointer;
@@ -72,7 +75,7 @@ ul#cfl-menu a {
 }
 ul#cfl-menu a:hover, ul#cfl-menu a:focus, ul#cfl-menu a:active {
     background: url("images/cfl_linkback.gif") repeat scroll 0 0 #D2B48C;
-    color: yellow;
+    color: #D2691E;
     letter-spacing: 0.3em;
 }
 html {
@@ -111,6 +114,8 @@ body {
 }
 #post h2, #post h3, #home h1 {
     color: #489690;
+    font-size: 150%;
+    margin: 3% 0% 0 5%;
 }
 #home ul li {
     list-style: none outside none;
@@ -137,6 +142,9 @@ blockquote {
 blockquote img {
     display: block;
     margin: -1% 18% 15%;
+    box-shadow:10px 10px 20px #000;
+     -webkit-box-shadow:10px 10px 20px #000;
+     -moz-box-shadow: 10px 10px 20px #000;
 }
 blockquote p.author {
     color: #880000;
