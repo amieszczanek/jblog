@@ -8,4 +8,7 @@ title: Jak-powstaje-galeria-w-CSS
 ##Pierwszy etap
 
 Sam początek wyświelenia galerii jest zupełnie prosty. Może nie wygląda to narazie zbyt pięknie ale efekt już jakiś widać. 
-[sigma.inf.ug.edu.pl/~amieszczanek/home/galeria1.html]. 
+[Galeria1](http://home/amieszczanek/public_git/sp/gallery/galeria1.html)
+W pierwszej kolejności zostało dodane opływanie w lewo *(float: left)* dla wszystich miniatur. Zdjęcia umieszczają się w jednej 
+lini dopóki im starczy miejsca na stronie, natomiast *display: block* tworzy element blokowy miniatur.
+
