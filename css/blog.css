@@ -1,18 +1,41 @@
 @font-face {
     font-family: "Cyklop";
     src: local("☺"), url("Cyklop-Italic.otf") format("opentype");
-    src: local("☺"), url("mkreczne.ttf") format("opentype")
+    src: local("☺"), url("mkreczne.ttf") format("truetype")
 }
-#header {
-    margin: 18px 0 0;
+
+html {
+    background-color: #FFE4B5;
+    height: 100%;
+    margin-left: 5%;
 }
+
+body {
+    background-color: #FFE4B5;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.site {
+    background-color: #FFFFE0;
+    box-shadow: 0 2px 6px #D2691E;
+    -moz-box-shadow: 0 2px 6px #D2691E;
+    -webkit-box-shadow: 0 2px 6px #D2691E;
+    border-radius: 3% 3%;
+    -moz-border-radius: 3% 3%;
+    -webkit-border-radius: 3% 3%;
+    margin: 4px 0 8px 0;
+}
+
 #links a {
     font: bold 20px arial,sans-serif;
 }
+
 #logo {
     font: italic bold 256% arial,sans-serif;
     margin-bottom: 1px;
 }
+
 #logo a {
     clear: both;
     color: #FF4500;
@@ -20,50 +43,42 @@
     text-align: center;
     text-decoration: underline;
 }
+
 #logo a:focus, #logo a:hover, #links a:focus, #links a:hover {
     color: #FFA07A;
 }
+
 section#posts {
     color: #A52A2A;
     width: 100%;
 }
+
 section#Projekty {
     color: #A52A2A;
     padding-top: 5%;
 }
+
 section#content {
     color: black;
     font-size: 90%;
     font-family: mkreczne;
 }
+
 .li {
     list-style: url("41.png");
 }
-header#header_home {
-    color: #8B4513;
-}
-footer#page_footer {
-    clear: both;
-    color: #A9A9A9;
-    display: block;
-    margin-top: 50%;
-    text-align: center;
-    width: 100%;
-}
-.post {
-    color: black;
-}
+
 ul#cfl-menu a {
     -moz-box-shadow: 5px 7px 17px #D2691E;
     -webkit-box-shadow:5px 7px 17px #D2691E;
     background: url("41.png") repeat scroll 0 0 #D2B48C;
     color: #FFFFFF;
-    cursor: pointer;
+    /*cursor: pointer;*/
     display: block;
-    float: left;
+    float: right;
     font-weight: normal;
     margin-bottom: 7%;
-    padding: 1% 4% 2%;
+    padding: 1% 4% 1%;
     text-align: center;
     text-decoration: none;
     width: 25%;
@@ -73,33 +88,38 @@ ul#cfl-menu a:hover, ul#cfl-menu a:focus, ul#cfl-menu a:active {
     color: #D2691E;
     letter-spacing: 0.3em;
 }
-html {
-    background-color: #FFE4B5;
-    height: 100%;
-    margin: 0 auto 0 100px;
-}
-body {
-    background-color: #FFE4B5;
-    height: 100%;
-    margin: 0% -6% 9% 4%;
 
+footer#page_footer {
+    clear: both;
+    color: #A9A9A9;
+    display: block;
+    margin-top: 50%;
+    text-align: center;
+    width: 100%;
 }
-.site {
-    background-color: #FFFFE0;
-    height: auto;
-    width: 51%;
+
+.post {
+    color: black;
 }
+
+header#header_home {
+    color: #8B4513;
+}
+
 #home, #post {
     -moz-border-radius: 6% 6% 6% 6%;
+    -webkit-border-radius: 6% 6% 6% 6%;
     border-color: #888888;
     border-style: ridge;
     border-width: 1px 0 1px 1px;
     padding-top: 23px;
 }
+
 #home h1 {
     font-size: 116%;
     font-style: italic;
 }
+
 #post h1 {
     color: #FF2C2B;
     font-size: 170%;
@@ -107,17 +127,21 @@ body {
     font-weight: bold;
     margin-bottom: 2%;
 }
+
 #post h2, #post h3, #home h1 {
     color: #489690;
     font-size: 150%;
     margin: 3% 0% 0 5%;
 }
+
 #home ul li {
     list-style: none outside none;
 }
+
 a[href^="http:"], a[href^="mailto:"], a[href^="http:"]:visited, a[href$=".pdf"], a[href$=".doc"], a[href$=".xls"], a[href$=".rss"], a[href$=".rdf"], a[href^="aim:"] {
      padding:2px 16px 2px 0;
 }
+
 blockquote {
     -moz-border-radius: 10px 10px 10px 10px;
     background: none repeat scroll 0 0 #F2F1D6;
@@ -144,6 +168,7 @@ blockquote img {
      -moz-border-radius:25px; 
      -webkit-border-radius:25px;
 }
+
 blockquote p.author {
     color: #880000;
     font-style: italic;
@@ -151,11 +176,13 @@ blockquote p.author {
     padding-right: 10%;
     text-align: right;
 }
+
 h1 {
     border-bottom: 2px none;
     font-size: 100%;
     padding-bottom: 2px;
 }
+
 h2, h3 {
     background: none repeat scroll 0 0 transparent;
     clear: none;
@@ -164,22 +191,26 @@ h2, h3 {
     padding: 3%;
     text-align: left;
 }
+
 code {
-    border: 1px solid #403B33;
     margin: 0 2px;
     padding: 0.06em 0.125em;
 }
+
 pre code {
     border: medium none;
 }
+
 pre {
     border-left: 9px solid #FD9945;
     margin-left: -49px;
     padding: 0 0 0 49px;
 }
+
 caption {
     text-align: right;
 }
+
 li ul {
     margin-bottom: 2px;
 }
