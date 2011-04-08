@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Cyklop";
     src: local("☺"), url("Cyklop-Italic.otf") format("opentype");
+    src: local("☺"), url("mkreczne.ttf") format("opentype")
 }
 #header {
     margin: 18px 0 0;
@@ -33,13 +34,13 @@ section#Projekty {
 section#content {
     color: black;
     font-size: 90%;
-    font-family: fantasy;
+    font-family: mkreczne;
 }
 .li {
     list-style: url("41.png");
 }
 header#header_home {
-    color: yellow;
+    color: #8B4513;
 }
 footer#page_footer {
     clear: both;
@@ -55,7 +56,7 @@ footer#page_footer {
 ul#cfl-menu a {
     -moz-box-shadow: 5px 7px 17px #D2691E;
     -webkit-box-shadow:5px 7px 17px #D2691E;
-    background: url("images/cfl_link.gif") repeat scroll 0 0 #D2B48C;
+    background: url("41.png") repeat scroll 0 0 #D2B48C;
     color: #FFFFFF;
     cursor: pointer;
     display: block;
@@ -68,7 +69,7 @@ ul#cfl-menu a {
     width: 25%;
 }
 ul#cfl-menu a:hover, ul#cfl-menu a:focus, ul#cfl-menu a:active {
-    background: url("images/cfl_linkback.gif") repeat scroll 0 0 #D2B48C;
+    background: url("41.png") repeat scroll 0 0 #D2B48C;
     color: #D2691E;
     letter-spacing: 0.3em;
 }
@@ -86,7 +87,7 @@ body {
 .site {
     background-color: #FFFFE0;
     height: auto;
-    width: 49%;
+    width: 51%;
 }
 #home, #post {
     -moz-border-radius: 6% 6% 6% 6%;
