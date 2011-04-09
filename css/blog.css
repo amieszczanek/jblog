@@ -1,5 +1,6 @@
 @font-face {
     font-family: "Cyklop";
+    font-family: "Mkreczne"
     src: local("☺"), url("Cyklop-Italic.otf") format("opentype");
     src: local("☺"), url("mkreczne.ttf") format("truetype")
 }
@@ -61,11 +62,12 @@ section#Projekty {
 section#content {
     color: black;
     font-size: 90%;
-    font-family: mkreczne;
+    margin: 9% 9% 0% -3%;
+    font-family: Mkreczne;
 }
 
 .li {
-    list-style: url("41.png");
+    list-style: url("/~amieszczanek/blog/images/41.png");
 }
 
 ul#cfl-menu a {
@@ -73,7 +75,7 @@ ul#cfl-menu a {
     -webkit-box-shadow:5px 7px 17px #D2691E;
     background: url("41.png") repeat scroll 0 0 #D2B48C;
     color: #FFFFFF;
-    /*cursor: pointer;*/
+    cursor: pointer;
     display: block;
     float: right;
     font-weight: normal;
@@ -84,7 +86,7 @@ ul#cfl-menu a {
     width: 25%;
 }
 ul#cfl-menu a:hover, ul#cfl-menu a:focus, ul#cfl-menu a:active {
-    background: url("41.png") repeat scroll 0 0 #D2B48C;
+    background: url("/~amieszczanek/blog/css/icons/external.png") repeat scroll 0 0 #D2B48C;
     color: #D2691E;
     letter-spacing: 0.3em;
 }
@@ -104,14 +106,19 @@ footer#page_footer {
 
 header#header_home {
     color: #8B4513;
+    margin: 8% 0% 0% -3%;
 }
 
 #home, #post {
-    -moz-border-radius: 6% 6% 6% 6%;
-    -webkit-border-radius: 6% 6% 6% 6%;
-    border-color: #888888;
-    border-style: ridge;
-    border-width: 1px 0 1px 1px;
+    border-radius: 2% 2% 2% 2%;
+    -moz-border-radius: 2% 2% 2% 2%;
+    -webkit-border-radius: 2% 2% 2% 2%;
+    box-shadow: 0 2px 2px #D2691E;
+    -moz-box-shadow: 0 2px 6px #D2691E;
+    -webkit-box-shadow: 0 2px 6px #D2691E;
+    border-color: #FFDAB9;
+    border-style: solid;
+    border-width: 7px 7px 7px 0px;
     padding-top: 23px;
 }
 
