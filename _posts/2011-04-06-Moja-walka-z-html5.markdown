@@ -28,25 +28,25 @@ W pierwszym etapie zamieniłam nagłówki w plikach.html. Bardzo przydatne są s
 
 Html4 było: 
    
-<code>!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"</code>    
-<code>"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"></code>  
+<pre>  <"!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"> </pre>    
+<pre>  <"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> </pre>  
 
  Html5 jest:    
 
-<code>!DOCTYPE html</code>
+<pre><"!DOCTYPE html"></pre>
 
 * Zmiana kodowania:    
 
 Html4 było:    
 
-<code>html xmlns="http://www.w3.org/1999/xhtml"</code>    
-<code>xml:lang="pl" lang="pl-pl"</code>    
-<code>meta http-equiv="content-type" content="text/html; charset="utf-8"</code>    
+<pre><"html xmlns="http://www.w3.org/1999/xhtml"> </pre>    
+<pre><"xml:lang="pl" lang="pl-pl"></pre>    
+<pre><"meta http-equiv="content-type" content="text/html; charset="utf-8"></pre>    
 
 Html5 jest:    
 
-<code>html lang="pl"</code>    
-<code>meta charset="utf-8"</code>
+<pre><"html lang="pl"></pre>    
+<pre><"meta charset="utf-8"></pre>
 
 * Na koniec dodałam elementy charakteryzujące używanie Html5 a mianowicie:    
 
