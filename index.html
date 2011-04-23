@@ -3,18 +3,19 @@ layout: index
 title: Klara@blog
 ---
 
-<header id="header_home" class="prepend-1 span-13">
+<header id="header_home">
 
- <blockquote>
+ <aside>
     <p>
-      Ludzie są wiecznie niezadowoleni. Kiedy mają niewiele, chcą więcej. Jeśli mają dużo, chcą jeszcze więcej. A kiedy już to osiągną, tęsknią za prostym, skromnym życiem, tyle tylko, że nic w tym kierunku nie czynią.
+      &bdquo;Ludzie są wiecznie niezadowoleni. Kiedy mają niewiele, chcą więcej. Jeśli mają dużo, chcą jeszcze więcej.
+       A kiedy już to osiągną, tęsknią za prostym, skromnym życiem, tyle tylko, że nic w tym kierunku nie czynią.&rdquo;
     </p>
     <p class="author">-Paulo Coelho</p>
-  </blockquote>
+  </aside>
   
-  <section id="posts">
+  <section id="Posty">
         <h3>Posty</h3>
-         <ul class="posts">
+         <ul id"posts">
          {% for post in site.posts %}
          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
          {% endfor %}
@@ -23,7 +24,7 @@ title: Klara@blog
       
   <section id="Projekty">  
        <h3>Projekty Open Source</h3>
-         <ul class="posts">
+         <ul id="posts">
          <li><a href="http://github.com/wbzyl/jblog/">jBlog</a>— szablon jekyll-bloga</li>
         </ul>
    </section>
