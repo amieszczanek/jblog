@@ -6,166 +6,89 @@
 }
 
 html {
-    background-color: #FFE4B5;
+    background-color: #FFFACD;
     height: 100%;
-    margin-left: 5%;
+    margin: 1cm;
+    width: 100%;
 }
 
 body {
-    background-color: #FFE4B5;
-    height: 100%;
-    margin: 0 auto;
-}
-
-.site {
     background-color: #FFFFE0;
     box-shadow: 0 2px 6px #D2691E;
     -moz-box-shadow: 0 2px 6px #D2691E;
     -webkit-box-shadow: 0 2px 6px #D2691E;
-    border-radius: 3% 3%;
-    -moz-border-radius: 3% 3%;
-    -webkit-border-radius: 3% 3%;
+    border-radius: 3% 3% 0% 0%;
+    -moz-border-radius: 3% 3% 0% 0%;
+    -webkit-border-radius: 3% 3% 0% 0%;
     margin: 4px 0 8px 0;
+    height: auto;
+    width: 25cm;
 }
 
-#links a {
-    font: bold 20px arial,sans-serif;
-}
+#page_header {
+	font-family: "Mkreczne";
+	font-size: 20px;
+   height: 4cm;
+   text-align: center;
+	background-color: #EEE685;
+   box-shadow: 0 2px 6px #D2691E;
+    -moz-box-shadow: 0 2px 6px #D2691E;
+    -webkit-box-shadow: 0 2px 6px #D2691E;
+   border-radius: 3% 3% 0% 0%;
+    -moz-border-radius: 3% 3% 0% 0%;
+    -webkit-border-radius: 3% 3% 0% 0%;
+	} 
+	
+h1 {
+	color: #8B3626;
+   text-decoration: underline;	
+	}
 
-#logo {
-    font: italic bold 256% arial,sans-serif;
-    margin-bottom: 1px;
-}
-
-#logo a {
-    clear: both;
-    color: #FF4500;
-    display: block;
-    text-align: center;
-    text-decoration: underline;
-}
-
-#logo a:focus, #logo a:hover, #links a:focus, #links a:hover {
-    color: #FFA07A;
-}
-
-section#posts {
-    color: #A52A2A;
-    width: 100%;
-}
-
-section#Projekty {
-    color: #A52A2A;
-    padding-top: 5%;
-}
-
-section#content {
-    color: black;
-    font-size: 90%;
-    margin: 9% 9% 0% -3%;
-    font-family: Mkreczne;
-}
-
-.li {
-    list-style: url("/~amieszczanek/blog/images/41.png");
-}
-
-ul#cfl-menu a {
+#menu a {
     -moz-box-shadow: 5px 7px 17px #D2691E;
     -webkit-box-shadow:5px 7px 17px #D2691E;
-    background: url("41.png") repeat scroll 0 0 #D2B48C;
-    color: #FFFFFF;
+    border-radius: 3%;
+    -moz-border-radius: 3%;
+    -webkit-border-radius: 3%;
+    background: url("41.png") repeat scroll 0 0 #CDC673;
+    color: #8B3626;
     cursor: pointer;
     display: block;
     float: right;
-    font-weight: normal;
+    font-size: 23px;
     margin-bottom: 7%;
     padding: 1% 4% 1%;
     text-align: center;
-    text-decoration: none;
     width: 25%;
 }
-ul#cfl-menu a:hover, ul#cfl-menu a:focus, ul#cfl-menu a:active {
+
+#menu a:hover, ul#cfl-menu a:focus, ul#cfl-menu a:active {
     background: url("/~amieszczanek/blog/css/icons/external.png") repeat scroll 0 0 #D2B48C;
-    color: #D2691E;
+    color: brown;
     letter-spacing: 0.3em;
-}
+}  
 
-footer#page_footer {
-    clear: both;
-    color: #A9A9A9;
-    display: block;
-    margin-top: 50%;
-    text-align: center;
-    width: 100%;
-}
-
-.post {
-    color: black;
-}
-
-header#header_home {
-    color: #8B4513;
-    margin: 8% 0% 0% -3%;
-}
-
-#home, #post {
-    border-radius: 2% 2% 2% 2%;
-    -moz-border-radius: 2% 2% 2% 2%;
-    -webkit-border-radius: 2% 2% 2% 2%;
-    box-shadow: 0 2px 2px #D2691E;
-    -moz-box-shadow: 0 2px 6px #D2691E;
-    -webkit-box-shadow: 0 2px 6px #D2691E;
-    border-color: #FFDAB9;
-    border-style: solid;
-    border-width: 7px 7px 7px 0px;
-    padding-top: 23px;
-}
-
-#home h1 {
-    font-size: 116%;
-    font-style: italic;
-}
-
-#post h1 {
-    color: #FF2C2B;
-    font-size: 170%;
-    font-style: italic;
-    font-weight: bold;
-    margin-bottom: 2%;
-}
-
-#post h2, #post h3, #home h1 {
-    color: #489690;
-    font-size: 150%;
-    margin: 3% 0% 0 5%;
-}
-
-#home ul li {
-    list-style: none outside none;
-}
-
-a[href^="http:"], a[href^="mailto:"], a[href^="http:"]:visited, a[href$=".pdf"], a[href$=".doc"], a[href$=".xls"], a[href$=".rss"], a[href$=".rdf"], a[href^="aim:"] {
-     padding:2px 16px 2px 0;
-}
-
-blockquote {
-    -moz-border-radius: 10px 10px 10px 10px;
-    background: none repeat scroll 0 0 #F2F1D6;
+#header_home aside{
+	 border-radius: 10% 10% 10% 10%;
+     -moz-border-radius: 10% 10% 10% 10%;;
+     -webkit-border-radius: 10% 10% 10% 10%;;
+    background: none repeat scroll 0 0 #FFFACD;
     color: #880000;
     display: block;
+    float: right;
     font-family: "DejaVu Sans",sans-serif;
-    font-size: 100%;
+    font-size: 16px;
     font-style: normal;
-    margin-left: 590px;
-    margin-top: 50px;
+    line-height: 30px;
+    margin-left: 646px;
+    margin-top: 25px;
     padding: 18px 12px 0 22px;
     position: absolute;
-    text-align: right;
+    text-align: center;
     width: 257px;
 }
 
-blockquote img {
+#header_home aside img {
     display: block;
     margin: -1% 18% 15%;
     box-shadow:5px -5px 10px #000;
@@ -176,7 +99,7 @@ blockquote img {
      -webkit-border-radius:25px;
 }
 
-blockquote p.author {
+#header_home aside p.author {
     color: #880000;
     font-style: italic;
     margin-top: 4%;
@@ -184,10 +107,85 @@ blockquote p.author {
     text-align: right;
 }
 
-h1 {
-    border-bottom: 2px none;
-    font-size: 100%;
-    padding-bottom: 2px;
+
+#Posty h3 {
+	 margin-left: 45px;
+    font-size: 26px;
+    color: #ECAB53;	
+    padding-top: 7px;
+    font-weight: bold;
+	}
+	
+#Projekty h3 {
+	 margin-left: 45px;
+    font-size: 26px;
+    color: #ECAB53;	
+    font-weight: bold;
+	}	
+
+#content2 {
+    color: #8B7500;
+    font-family: Mkreczne;
+}
+
+li {
+	 margin-left: 50px;
+    list-style: url("/~amieszczanek/blog/images/41.png");
+}
+
+#page_footer {
+    clear: both;
+    color: #A9A9A9;
+    display: block;
+    margin-top: 50%;
+    text-align: center;
+    width: 100%;
+}  
+
+
+#post {
+    border-radius: 2% 2% 2% 2%;
+    -moz-border-radius: 2% 2% 2% 2%;
+    -webkit-border-radius: 2% 2% 2% 2%;
+    box-shadow: 0 2px 2px #D2691E;
+    -moz-box-shadow: 0 2px 6px #D2691E;
+    -webkit-box-shadow: 0 2px 6px #D2691E;
+    border-color: #FFDAB9;
+    border-style: solid;
+    border-width: 6px 5px 6px 0;
+    padding-top: 7px;
+    width: 100%;
+}
+
+#content3 {
+    color: black;
+    margin: 30px;
+    font-family: Mkreczne;
+}
+
+#home h1 {
+    font-size: 116%;
+    font-style: italic;
+}
+
+#post h1 {
+    color: #FF2C2B;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 3%;
+}
+#post h2, h3, #home h1 {
+    color: #489690;
+    font-size: 25px;
+    margin-left: 3%;
+
+#home ul li {
+    list-style: none outside none;
+}
+
+a[href^="http:"], a[href^="mailto:"], a[href^="http:"]:visited, a[href$=".pdf"], a[href$=".doc"], a[href$=".xls"], a[href$=".rss"], a[href$=".rdf"], a[href^="aim:"] {
+     padding:2px 16px 2px 0;
 }
 
 h2, h3 {
