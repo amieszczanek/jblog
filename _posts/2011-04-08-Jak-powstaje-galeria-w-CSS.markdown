@@ -22,7 +22,7 @@ W moim przykładzie zastosowałam ***position: relative***. Przykład: [Galeria2
 
 * Trzeci etap
 
-Ta część jest dość prosta. Po prostu definiuj€ szerokość, wysokość, oraz inne stylizacje jaką chcę dodać do tych miniatur. Wysokość i szerokość są konieczne. Reszta jest opcjonalna. Przykład: [Galeria3](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/galeria3.html)
+Ta część jest dość prosta. Po prostu definiuje szerokość, wysokość, oraz inne stylizacje jaką chcemy dodać do tych miniatur. Wysokość i szerokość są konieczne. Reszta jest opcjonalna. Przykład: [Galeria3](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/galeria3.html)
 
 * Czwarty etap
 

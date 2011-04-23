@@ -3,16 +3,14 @@ layout: post
 title: Moja-walka-z-html5
 ---
 
-<blockquote>
+<aside>
 <img src="../../../../images/bhh5_xlargecover.jpg" alt="[Brian P.Hogan]" />
-<p>
- In this book, you’re going to find out about all of the ways you can use
+<p> &bdquo;In this book, you’re going to find out about all of the ways you can use
  HTML5 and CSS3 right now,even if your users don’t have browsers
-that can support all of these features yet.
-</p>
-</blockquote>
+that can support all of these features yet ...&rdquo;</p>
+</aside>
 
-# {{ page.title }}
+# {{ page.title }}  
 
 
 ## Html5
@@ -24,7 +22,7 @@ W pierwszym etapie zamieniłam nagłówki w plikach.html. Bardzo przydatne są s
 
 ## Etapy zmiany szablonu z Html4 na Html5
  
-* Zmiana nagłówka strony:  
+  * Zmiana nagłówka strony:  
 
 Html4 było: 
    
@@ -35,7 +33,7 @@ Html4 było:
 
 <pre><"!DOCTYPE html"></pre>
 
-* Zmiana kodowania:    
+  * Zmiana kodowania:    
 
 Html4 było:    
 
@@ -48,7 +46,7 @@ Html5 jest:
 <pre><"html lang="pl"></pre>    
 <pre><"meta charset="utf-8"></pre>
 
-* Na koniec dodałam elementy charakteryzujące używanie Html5 a mianowicie:    
+  * Na koniec dodałam elementy charakteryzujące używanie Html5 a mianowicie:    
 
 ***Navigacja*** może zawierać całe menu z linkami do głównych podstron, lub tylko np. linki wstecz/dalej.  
 ***Header*** służy przede wszystkim do określania nagłówka strony ale może określać nagłówek jakieś określonej sekcji. Wewnątrz tego znacznika znajdują się elementy, które standardowo tworzą nagłówek strony, a więc tytuł strony lub logo.  
