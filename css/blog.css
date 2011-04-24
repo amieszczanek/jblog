@@ -167,7 +167,7 @@ li {
     font-family: Mkreczne;
 }
 
-#content3 aside p{
+#content3 aside {
 	 border-radius: 10% 10% 10% 10%;
      -moz-border-radius: 10% 10% 10% 10%;;
      -webkit-border-radius: 10% 10% 10% 10%;;
@@ -176,23 +176,24 @@ li {
     display: block;
     float: right;
     font-family: "DejaVu Sans",sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
-    line-height: 30px;
-    margin-left: 646px;
-    margin-top: 25px;
-    padding: 18px 12px 0 22px;
+    line-height: 25px;
+    margin-left: 849px;
+    margin-top: 170px;
+    padding: 23px 200px 0px 94px;
     position: absolute;
-    text-align: center;
-    width: 257px;
+    text-align: left;
+    width: 214px;
 }
 
 #content3 aside img {
     display: block;
-    margin: -1% 18% 15%;
-    box-shadow:5px -5px 10px #000;
-     -webkit-box-shadow:5px -5px 10px #000;
-     -moz-box-shadow:5px -5px 10px #000000;
+    margin: -50% -2% 0%;
+    position: absolute;
+    box-shadow:5px 3px 10px #000;
+     -webkit-box-shadow:5px 3px 10px #000;
+     -moz-box-shadow:5px 3px 10px #000000;
     border-radius:25px; 
      -moz-border-radius:25px; 
      -webkit-border-radius:25px;
