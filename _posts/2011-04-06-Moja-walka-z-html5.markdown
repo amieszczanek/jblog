@@ -3,11 +3,13 @@ layout: post
 title: Moja-walka-z-html5
 ---
 
-<aside>
+<aside id="img">
 <img src="../../../../images/bhh5_xlargecover.jpg" alt="[Brian P.Hogan]" />
-<p> &bdquo;In this book, you’re going to find out about all of the ways you can use
- HTML5 and CSS3 right now,even if your users don’t have browsers
-that can support all of these features yet ...&rdquo;</p>
+</aside>
+<aside id"p">
+&bdquo;In this book, you’re going to find out about all of the ways you can use 
+HTML5 and CSS3 right now,even if your users don’t have browsers
+that can support all of these features yet ...&rdquo;
 </aside>
 
 # {{ page.title }}  
