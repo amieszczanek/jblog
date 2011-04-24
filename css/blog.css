@@ -68,7 +68,7 @@ h1 {
     letter-spacing: 0.3em;
 }  
 
-#header_home aside{
+#header_home aside {
 	 border-radius: 10% 10% 10% 10%;
      -moz-border-radius: 10% 10% 10% 10%;;
      -webkit-border-radius: 10% 10% 10% 10%;;
@@ -132,6 +132,10 @@ li {
 	 margin-left: 50px;
     list-style: url("/~amieszczanek/blog/images/41.png");
 }
+#header_kontakt li {
+	margin-left: 50px;
+   list-style: url("/~amieszczanek/blog/css/icons/email.png");	
+	}
 
 #page_footer {
     clear: both;
@@ -161,6 +165,45 @@ li {
     color: black;
     margin: 30px;
     font-family: Mkreczne;
+}
+
+#content3 aside p{
+	 border-radius: 10% 10% 10% 10%;
+     -moz-border-radius: 10% 10% 10% 10%;;
+     -webkit-border-radius: 10% 10% 10% 10%;;
+    background: none repeat scroll 0 0 #FFFACD;
+    color: #880000;
+    display: block;
+    float: right;
+    font-family: "DejaVu Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 30px;
+    margin-left: 646px;
+    margin-top: 25px;
+    padding: 18px 12px 0 22px;
+    position: absolute;
+    text-align: center;
+    width: 257px;
+}
+
+#content3 aside img {
+    display: block;
+    margin: -1% 18% 15%;
+    box-shadow:5px -5px 10px #000;
+     -webkit-box-shadow:5px -5px 10px #000;
+     -moz-box-shadow:5px -5px 10px #000000;
+    border-radius:25px; 
+     -moz-border-radius:25px; 
+     -webkit-border-radius:25px;
+}
+
+#content3 aside p.author {
+    color: #880000;
+    font-style: italic;
+    margin-top: 4%;
+    padding-right: 10%;
+    text-align: right;
 }
 
 #home h1 {
