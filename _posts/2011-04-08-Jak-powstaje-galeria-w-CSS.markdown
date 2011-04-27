@@ -5,7 +5,7 @@ title: Jak-powstaje-galeria-w-CSS
 
 # {{ page.title }}
 
-##Przykład Galerii, w której po najechaniu myszką na miniaturę, wtedy zdjęcie się powiększa
+##Przykład Galerii, w której zdjęcie się powiększa, kiedy najedziemy na miniaturę
 
 
 * Pierwszy etap
@@ -28,6 +28,9 @@ Ta część jest dość prosta. Po prostu definiuje szerokość, wysokość, ora
 
 Ostatni najwazniejszy etap, w którym nareszcie będzie coś widać. Przykład: [Galeria4](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/galeria4.html). W tym etapie dodaję polecenie ***:hover***. Jest to pseudoklasa, która definiuje właściwości "najechanych" elementów, np. odnośników (linków). Dzięki temu po najechaniu na naszą miniaturę wyświetli się ona w innym położeniu.
 
-Poniżej zamieszczam inne przykłady galerii:
+Poniżej zamieszczam inny przykład galerii:
+
+[Galeria Polaroid](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/galeriaNowa2.html)
+
 
 
