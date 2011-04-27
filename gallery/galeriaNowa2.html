@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+ <html lang="pl">
+ <head>
+   <meta charset=utf-8">
+   <title>Moja Galeriia</title>
+   <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></	 script>
+    <![endif]-->
+    <!-- <script src="http://code.jquery.com/jquery-1.4.4.min.js"></script> -->
+    <style type="text/css">
+	
+	body {
+		background-color: #ADD8E6;
+		color: #333;
+		font-family:"Lucida handwriting", "Snell Roundhand", "Helvetica Neue",Arial,Helvetica,sans-serif;
+		font-size: 16px;
+	}
+	
+	.amp {
+		font-family:Garamond,Baskerville,Georgia,serif !important;
+		font-style:italic;
+		font-weight:normal;
+		border: none;
+	}
+	
+	li.polaroid {
+		display: block;
+		text-decoration: none;
+		color: #333;
+		padding: 10px 10px 20px 10px;
+		width: 150px;
+		border: 1px solid #BFBFBF;
+		background-color: white;
+		z-index: 2;
+		font-size: 0.7em;
+		-webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+		-moz-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+		box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+		-webkit-transition: all 0.5s ease-in;
+	}
+	li.polaroid:hover,
+	li.polaroid:focus,
+	li.polaroid:active {
+		z-index: 999;
+		border-color: #6A6A6A;
+		-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+		-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+		box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+		-webkit-transform: rotate(0deg) scale(1.05);
+		-moz-transform: rotate(0deg) scale(1.05);
+		transform: rotate(0deg) scale(1.05);
+	}
+	.polaroid img {
+		margin: 0 0 15px;
+		width: 150px;
+		height: 150px;
+	}
+	
+	li img {
+		border: none;
+		display: block;
+	}
+	
+	.listaZdjec {
+		position: relative;
+		width: 80%;
+		margin: 0 auto;
+		max-width: 70em;
+		height: 450px;
+		margin-top: 5em;
+		min-width: 800px;
+		max-width: 900px;
+	}
+	.listaZdjec .polaroid {
+		position: absolute;
+	}
+	.listaZdjec h1 {
+		position: absolute;
+		z-index: 5;
+		top: 150px;
+		text-align: center;
+		width: 100%;
+		line-height: 1.9;
+	}
+	.listaZdjec h1 span {
+		background-color: white;
+		font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+		padding: 0.4em 0.8em 0.3em 0.8em;
+		-webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+		-moz-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+		box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+		border: 1px solid #6A6A6A;
+	}
+	.listaZdjec .small {
+		width: 75px;
+		padding: 6px 6px 12px 6px;
+		font-size: 0.6em;
+	}
+	.listaZdjec .small img {
+		width: 75px;
+		height: 75px;
+	}
+	.listaZdjec .medium {
+		width: 200px;
+		padding: 13px 13px 26px 13px;
+		font-size: 0.8em;
+	}
+	.listaZdjec .medium img {
+		width: 200px;
+		height: 200px;
+	}
+	.listaZdjec .large {
+		width: 300px;
+		padding: 20px 20px 30px 20px;
+		font-size: 1em;
+	}
+	.listaZdjec .large img {
+		width: 300px;
+		height: 300px;
+	}
+	.listaZdjec .img1 {
+		bottom: 10px;
+		right: 365px;
+		-webkit-transform: rotate(10deg);
+		-moz-transform: rotate(10deg);
+		transform: rotate(10deg);
+	}
+	.listaZdjec .img2 {
+		top: 50px;
+		right: 20px;
+		-webkit-transform: rotate(-4deg);
+		-moz-transform: rotate(-4deg);
+		transform: rotate(-4deg);
+	}
+	.listaZdjec .img3 {
+		left: 400px;
+		top: 0;
+		-webkit-transform: rotate(-5deg);
+		-moz-transform: rotate(-5deg);
+		transform: rotate(-5deg);
+	}
+	.listaZdjec .img4 {
+		top: 10px;
+		left: 495px;
+		-webkit-transform: rotate(-20deg);
+		-moz-transform: rotate(-20deg);
+		transform: rotate(-20deg);
+	}
+	.listaZdjec .img5 {
+		bottom: 0;
+		right: 0;
+		-webkit-transform: rotate(1deg);
+		-moz-transform: rotate(1deg);
+		transform: rotate(1deg);
+	}
+	.listaZdjec .img6 {
+		bottom: 10px;
+		right: 156px;
+		-webkit-transform: rotate(6deg);
+		-moz-transform: rotate(6deg);
+		transform: rotate(6deg);
+	}
+	.listaZdjec .img7 {
+		bottom:0;
+		left:400px;
+		-webkit-transform: rotate(-10deg);
+		-moz-transform: rotate(-10deg);
+		transform: rotate(-10deg);
+	}
+	.listaZdjec .img8 {
+		bottom: -20px;
+		left: 700px;
+		-webkit-transform: rotate(-8deg);
+		-moz-transform: rotate(-8deg);
+		transform: rotate(-8deg);
+	}
+	.listaZdjec .img9 {
+		bottom: 0;
+		left: 0;
+		-webkit-transform: rotate(-8deg);
+		-moz-transform: rotate(-8deg);
+		transform: rotate(-8deg);
+	}
+	.listaZdjec .img10 {
+		top: 0;
+		left: 20px;
+		-webkit-transform: rotate(8deg);
+		-moz-transform: rotate(8deg);
+		transform: rotate(8deg);
+	}
+	
+	a:hover,
+	a:focus {
+		z-index: 5;
+	}
+	
+	</style>
+	
+</head>
+
+<body>
+
+	<div class="listaZdjec">
+		
+		<h1><span>Ja <abbr title="and" class="amp">&amp;</abbr> Ukochane Psiaki</span></h1>
+		
+		<li class="large polaroid img1"><img src="pies_10_Buldog-amerykański.jpg" alt="">Buldog-amerykański</li>
+		<li class="polaroid img2"><<img src="pies_2_Golden-retriever_S.jpg" alt="">Golden-retriever</li>
+		<li class="small polaroid img3"><img src="pies_8_Bullmastiff_S.jpg" alt="">Bullmastiff</li>
+		<li class="medium polaroid img4"><img src="pies_4_Owczarek chorwacki_S.jpg" alt="">Owczarek chorwacki</li>
+		<li class="polaroid img5"><img src="pies_5_Cocker-spaniel-angielski_S.jpg" alt="">Cocker-spaniel-angielski</li>
+		<li class="polaroid img6"><img src="pies_6_Pinczer-austriacki_S.jpg" alt="">Pinczer-austriacki</li>
+		<li class="polaroid img7"><img src="pies_7_Pies-grenlandzki_S.jpg" alt="">Pies-grenlandzki</li>
+		<li class="small polaroid img8"><img src="pies_3_Norwich-Terrier_S.jpg" alt="">Norwich-Terrier</li>
+		<li class="medium polaroid img9"><img src="pies_9_Szpic-fiński.jpg" alt="">Szpic-fiński</li>
+		<li class="polaroid img10"><img src="pies_1_Ogar-polski_S.jpg" alt="">Ogar_Polski</li>
+
+	</div>
+
+</body>
+</html>
