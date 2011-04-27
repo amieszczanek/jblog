@@ -80,9 +80,9 @@ h1 {
     font-size: 16px;
     font-style: normal;
     line-height: 30px;
-    margin-left: 730px;
-    margin-top: 40px;
-    padding: 18px 12px 0 22px;
+    margin-left: 735px;
+    margin-top: 80px;
+    padding: 3px 3px 3px 3px;
     position: absolute;
     text-align: center;
     width: 257px;
@@ -90,14 +90,13 @@ h1 {
 
 #header_home aside img {
     display: block;
-     margin-top: 4%;
-    padding-right: 10%;
-    box-shadow:5px -5px 10px #000;
-     -webkit-box-shadow:5px -5px 10px #000;
-     -moz-box-shadow:5px -5px 10px #000000;
-    border-radius:25px; 
-     -moz-border-radius:25px; 
-     -webkit-border-radius:25px;
+    margin-top: -78px;
+    box-shadow: 2px 0px 8px #000;
+     -webkit-box-shadow: 2px 0px 8px #000;
+     -moz-box-shadow: 2px 0px 8px #000000;
+    border-radius: 15px; 
+     -moz-border-radius: 15px; 
+     -webkit-border-radius: 15px;
 }
 
 #header_home aside p.author {
@@ -106,6 +105,10 @@ h1 {
     margin-top: 4%;
     padding-right: 10%;
     text-align: right;
+}
+
+#header_home p {
+	margin-left: 10px;	
 }
 
 
@@ -181,9 +184,9 @@ li {
     font-size: 14px;
     font-style: normal;
     line-height: 25px;
-    margin-left: 737px;
-    margin-top: 170px;
-    padding: 23px 200px 0px 94px;
+    margin-left: 735px;
+    margin-top: 190px;
+    padding: 5px 5px 5px 5px;
     position: absolute;
     text-align: left;
     width: 214px;
@@ -191,7 +194,7 @@ li {
 
 #content3 aside img {
     display: block;
-    margin: -50% -2% 0%;
+    margin-top: -233px;
     position: absolute;
     box-shadow:5px 3px 10px #000;
      -webkit-box-shadow:5px 3px 10px #000;
