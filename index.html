@@ -5,13 +5,6 @@ title: Klara@blog
 
 <header id="header_home">
 
- <aside>
-    <p>
-      &bdquo;Ludzie są wiecznie niezadowoleni. Kiedy mają niewiele, chcą więcej. Jeśli mają dużo, chcą jeszcze więcej.
-       A kiedy już to osiągną, tęsknią za prostym, skromnym życiem, tyle tylko, że nic w tym kierunku nie czynią.&rdquo;
-    </p>
-    <p class="author">-Paulo Coelho</p>
-  </aside>
   
   <section id="Posty">
         <h3>Posty</h3>
@@ -20,7 +13,16 @@ title: Klara@blog
          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
          {% endfor %}
          </ul>
-   </section>
+         
+   <aside>
+    <p>
+      &bdquo;Ludzie są wiecznie niezadowoleni. Kiedy mają niewiele, chcą więcej. Jeśli mają dużo, chcą jeszcze więcej.
+       A kiedy już to osiągną, tęsknią za prostym, skromnym życiem, tyle tylko, że nic w tym kierunku nie czynią.&rdquo;
+    </p>
+    <p class="author">-Paulo Coelho</p>
+  </aside>
+   
+  </section>
       
   <section id="Projekty">  
        <h3>Projekty Open Source</h3>
