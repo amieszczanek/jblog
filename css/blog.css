@@ -1,22 +1,27 @@
 @font-face {
     font-family: "Cyklop";
-    font-family: "Mkreczne"
+    font-family: "Mkreczne";
+    font-family: "Macius";
+    font-family: "Elementarz";
     src: local("☺"), url("Cyklop-Italic.otf") format("opentype");
-    src: local("☺"), url("mkreczne.ttf") format("truetype")
+    src: local("☺"), url("mkreczne.ttf") format("truetype");
+    src: local("☺"), url("MaciusFont.ttf") format("truetype");
+    src: local("☺"), url("Elementarz.ttf") format("truetype");
 }
 
 html {
-    background-color: #FFFACD;
-    height: 1000px;
+    background-image: url("/~amieszczanek/blog/images/tlo2.png");
+    background-attachment: fixed; 
+    height: 100%;
     margin: 1cm;
-    width: 1000px;
+    width: 100%;
 }
 
 body {
-    background-color: #FFFFE0;
-    box-shadow: 0 2px 6px #D2691E;
-    -moz-box-shadow: 0 2px 6px #D2691E;
-    -webkit-box-shadow: 0 2px 6px #D2691E;
+    background-color: #FFF0F5;
+    box-shadow: 0 2px 6px #8470FF;
+    -moz-box-shadow: 0 2px 6px #8470FF;
+    -webkit-box-shadow: 0 2px 6px #8470FF;
     border-radius: 3% 3% 0% 0%;
     -moz-border-radius: 3% 3% 0% 0%;
     -webkit-border-radius: 3% 3% 0% 0%;
@@ -26,32 +31,33 @@ body {
 }
 
 #page_header {
-	font-family: "Mkreczne";
+	font-family: "Macius";
 	font-size: 20px;
    height: 4cm;
    text-align: center;
-	background-color: #EEE685;
-   box-shadow: 0 2px 6px #D2691E;
-    -moz-box-shadow: 0 2px 6px #D2691E;
-    -webkit-box-shadow: 0 2px 6px #D2691E;
+	background-color: #CDC1C5;
+   box-shadow: 0 2px 6px #8470FF;
+    -moz-box-shadow: 0 2px 6px #8470FF;
+    -webkit-box-shadow: 0 2px 6px #8470FF;
    border-radius: 3% 3% 0% 0%;
     -moz-border-radius: 3% 3% 0% 0%;
     -webkit-border-radius: 3% 3% 0% 0%;
 	} 
 	
 h1 {
-	color: #8B3626;
-   text-decoration: underline;	
+	color: #8B5F65;
+   text-decoration: underline;
+   font-family: "Macius"	
 	}
 
 #menu a {
-    -moz-box-shadow: 5px 7px 17px #D2691E;
-    -webkit-box-shadow:5px 7px 17px #D2691E;
+    -moz-box-shadow: 5px 7px 17px #CD96CD;
+    -webkit-box-shadow:5px 7px 17px #CD96CD;
     border-radius: 3%;
     -moz-border-radius: 3%;
     -webkit-border-radius: 3%;
-    background: url("41.png") repeat scroll 0 0 #CDC673;
-    color: #8B3626;
+    background-color: #8B5F65;
+    color: #CD96CD;
     cursor: pointer;
     display: block;
     float: right;
@@ -63,9 +69,8 @@ h1 {
 }
 
 #menu a:hover, ul#cfl-menu a:focus, ul#cfl-menu a:active {
-    background: url("/~amieszczanek/blog/css/icons/external.png") repeat scroll 0 0 #D2B48C;
-    color: brown;
-    letter-spacing: 0.3em;
+    color: #CD96CD;
+    letter-spacing: 0.2em;
 }  
 
 #header_home aside {
