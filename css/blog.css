@@ -31,7 +31,7 @@ body {
 }
 
 #page_header {
-	font-family: "Macius";
+	font-family: "Mkreczne";
 	font-size: 20px;
    height: 4cm;
    text-align: center;
@@ -110,6 +110,7 @@ section#Posty aside {
 
 #content2 {
 	 color: #880000; 
+	 font-size: 20px;
     font-family: Mkreczne;
 }
 
