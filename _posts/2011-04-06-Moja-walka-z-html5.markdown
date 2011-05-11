@@ -27,29 +27,37 @@ W pierwszym etapie zamieniłam nagłówki w plikach.html. Bardzo przydatne są s
   * Zmiana nagłówka strony:  
 
 Html4 było: 
-   
-<pre>  <"!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"> </pre>    
-<pre>  <"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> </pre>  
 
- Html5 jest:    
+************************************************************************
+<"!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">    
+<"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+************************************************************************ 
 
-<pre><"!DOCTYPE html"></pre>
+Html5 jest:  
+ 
+****************************************************************************  
+<"!DOCTYPE html">
+**************************************************************************
 
   * Zmiana kodowania:    
 
-Html4 było:    
+Html4 było:  
 
-<pre><"html xmlns="http://www.w3.org/1999/xhtml"> </pre>    
-<pre><"xml:lang="pl" lang="pl-pl"></pre>    
-<pre><"meta http-equiv="content-type" content="text/html; charset="utf-8"></pre>    
+*****************************************************************************  
+<"html xmlns="http://www.w3.org/1999/xhtml">    
+<"xml:lang="pl" lang="pl-pl"> 
+<"meta http-equiv="content-type" content="text/html; charset="utf-8">  
+*********************************************************************************  
 
 Html5 jest:    
 
-<pre><"html lang="pl"></pre>    
-<pre><"meta charset="utf-8"></pre>
+*******************************************************************************
+<"html lang="pl">    
+<"meta charset="utf-8">
+**********************************************************************************
 
-  * Na koniec dodałam elementy charakteryzujące używanie Html5 a mianowicie:    
-
+  * Na koniec dodałam elementy charakteryzujące używanie Html5 a mianowicie:  
+    
 ***Navigacja*** może zawierać całe menu z linkami do głównych podstron, lub tylko np. linki wstecz/dalej.  
 ***Header*** służy przede wszystkim do określania nagłówka strony ale może określać nagłówek jakieś określonej sekcji. Wewnątrz tego znacznika znajdują się elementy, które standardowo tworzą nagłówek strony, a więc tytuł strony lub logo.  
 ***Section*** opisuje sekcję dokumentu, która może zawierać wszystkie możliwe inne znaczniki. Oczywiście, jedna sekcja może zawierać (nawet wielokrotnie) zagnieżdżone sekcje.  
