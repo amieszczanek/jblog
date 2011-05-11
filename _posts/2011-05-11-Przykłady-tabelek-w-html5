@@ -1,0 +1,37 @@
+---
+layout: post
+title: Przykłady-tabelek-w-html5
+---
+
+# {{ page.title }}
+
+##Przykłady tabelek na zaliczenie Technik internetowych
+
+********************************************************************************************************************
+
+* Tabela 1: 
+
+Jest to przykład tabeli KURCZAKI. Zadanie to miało odzwierciedlać gotową tabelę ze strony 
+Wbzyl(http://sinatra.inf.ug.edu.pl/ti/html/exercises). Po wielokrotnych próbach efekt moich działań widać w:
+[Tabelka1](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelki-1.html)
+Kolejnym zadaniem było upiększenie owej tabeli, starałam się jak mogłam. Można efekt zobaczyć 
+tutaj:[Tabelka1-kolor](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelki-1.-color.html) 
+
+* Tabelka 2
+
+Przykład tabelki XVIw. Zadanie było utrudnione tym, że każda kolumna potrzebowała innego typu formatowania, na dodatek
+niektóre wiersze były puste. Efekt moich działań widać tutaj:
+[Tabelka2](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelki-2.html). Kolorowanie tej tabeli dostarczyło mi dużo
+zabawy. Podzieliłam tabelę na kolumny i dodałam im odpowiednie id, co pozwoliło mi na pokolorowanie kolumn. Efekt widać tutaj
+[Tabelka2](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelki-2-color.html).
+
+* Tabelka 3
+
+Jest to przykład tabeli POPULACJA. Zadanie polegało na zaznaczeniu ramką tylko nagłówek tabeli, wiersze miały nie być obramowane.
+Efekt widać tutaj:[Tabelka3](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelki-3.html)
+Przy kolorowaniu tak jak w poprzednim przykładzie podzieliłam tabelę na 2 oddzielne kolumny co pozwoliło mi nadać tło kolumny,
+kolor obramowania efekt widać tutaj: [Tabelka3](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelki-3-color.html)
+
+
+
+
