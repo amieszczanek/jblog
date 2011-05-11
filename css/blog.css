@@ -58,10 +58,9 @@ h1 {
     -webkit-border-radius: 3%;
     background-color: #8B5F65;
     color: #CD96CD;
-    cursor: pointer;
     display: block;
     float: right;
-    font-size: 23px;
+    font-size: 20px;
     margin-bottom: 7%;
     padding: 1% 4% 1%;
     text-align: center;
@@ -75,8 +74,8 @@ h1 {
 
 #header_home aside {
 	 border-radius: 10% 10% 10% 10%;
-     -moz-border-radius: 10% 10% 10% 10%;;
-     -webkit-border-radius: 10% 10% 10% 10%;;
+     -moz-border-radius: 10% 10% 10% 10%;
+     -webkit-border-radius: 10% 10% 10% 10%;
     background: none repeat scroll 0 0 #FFFACD;
     color: #880000;
     display: block;
@@ -96,9 +95,6 @@ h1 {
 #header_home aside img {
     display: block;
     margin-top: -78px;
-    box-shadow: 2px 0px 8px #000;
-     -webkit-box-shadow: 2px 0px 8px #000;
-     -moz-box-shadow: 2px 0px 8px #000000;
     border-radius: 15px; 
      -moz-border-radius: 15px; 
      -webkit-border-radius: 15px;
@@ -130,10 +126,11 @@ h1 {
     font-size: 26px;
     color: #ECAB53;	
     font-weight: bold;
+    padding-top: 30px;
 	}	
 
 #content2 {
-    color: #8B7500;
+	 color: #880000; 
     font-family: Mkreczne;
 }
 
@@ -161,11 +158,9 @@ li {
     border-radius: 2% 2% 2% 2%;
     -moz-border-radius: 2% 2% 2% 2%;
     -webkit-border-radius: 2% 2% 2% 2%;
-    box-shadow: 0 2px 2px #D2691E;
-    -moz-box-shadow: 0 2px 6px #D2691E;
-    -webkit-box-shadow: 0 2px 6px #D2691E;
-    border-color: #FFDAB9;
-    border-style: solid;
+    box-shadow: 0 2px 2px #8470FF;
+    -moz-box-shadow: 0 2px 6px #8470FF;
+    -webkit-box-shadow: 0 2px 6px #8470FF;
     border-width: 6px 5px 6px 0;
     padding-top: 7px;
     width: 100%;
@@ -201,9 +196,6 @@ li {
     display: block;
     margin-top: -233px;
     position: absolute;
-    box-shadow:5px 3px 10px #000;
-     -webkit-box-shadow:5px 3px 10px #000;
-     -moz-box-shadow:5px 3px 10px #000000;
     border-radius:25px; 
      -moz-border-radius:25px; 
      -webkit-border-radius:25px;
@@ -251,22 +243,24 @@ h2, h3 {
     text-align: left;
 }
 
-code {
+.code {
     margin: 0 2px;
     padding: 0.06em 0.125em;
 }
 
-pre code {
+.pre code {
+	 color: red;
     border: medium none;
 }
 
-pre {
+.pre {
+	 color: pink;
     border-left: 9px solid #FD9945;
     margin-left: -49px;
     padding: 0 0 0 49px;
 }
 
-caption {
+.caption {
     text-align: right;
 }
 
