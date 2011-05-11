@@ -15,7 +15,7 @@ Jest to przykład tabeli KURCZAKI. Zadanie to miało odzwierciedlać gotową tab
 [Wbzyl](http://sinatra.inf.ug.edu.pl/ti/html/exercises). Po wielokrotnych próbach efekt moich działań widać w:
 [Tabelka1](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelki-1.html)
 Kolejnym zadaniem było upiększenie owej tabeli, starałam się jak mogłam. Można efekt zobaczyć 
-tutaj:[Tabelka1-kolor](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelki-1.-color.html) 
+tutaj:[Tabelka1-kolor](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelki-1-color.html) 
 
 * Tabelka 2
 
@@ -37,7 +37,7 @@ kolor obramowania efekt widać tutaj:[Tabelka3-kolor](http://sigma.inf.ug.edu.pl
 Przykład tabeli WORKSHEET. Tabelka bez obramowania, z różnym formatowaniem, elementy kolumny 3 znajdowały się w kolumnie 2.
 Wynik mojej pracy widać tutaj:[Tabelka4](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelki-5.html).
 Jeśli chodzi o kolorowanie jak w poprzednich przykład rozłożyłam tabelę na czynniki pierwsze by móc kolorować i formatować prawie każdą 
-kolumnę i wiersz. Efekt:[Tabelka4-kolor](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelki-5-color.html).
+kolumnę i wiersz. Efekt:[Tabelka4-kolor](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelka5-color.html).
 
 * Tabelka 5
 
@@ -49,9 +49,9 @@ Przykład znajduje się tutaj:[Tabelka5-kolor](http://sigma.inf.ug.edu.pl/~amies
 * Tabelka 6
 
 Przykład nietypowej tabeli o nazwie CHART. Zadanie polegało na umięjętnym operowaniu obramowaniem tabel. Wynik znajduje się tutaj:
-[Tabelka6](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelki-6.html). Przy kolorowaniu zastosowałam jedynie inne
+[Tabelka6](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelka6.html). Przy kolorowaniu zastosowałam jedynie inne
 obramowanie oraz zmieniłam czcionkę informacji zawartych w tabeli. Wynik: 
-[Tabelka6-kolor](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelki-6-color.html).
+[Tabelka6-kolor](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/tabelki/tabelka6-color.html).
 
 
 
