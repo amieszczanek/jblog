@@ -72,27 +72,23 @@ h1 {
     letter-spacing: 0.2em;
 }  
 
-#header_home aside {
-	 border-radius: 10% 10% 10% 10%;
-     -moz-border-radius: 10% 10% 10% 10%;
-     -webkit-border-radius: 10% 10% 10% 10%;
-    background: none repeat scroll 0 0 #FFFACD;
+
+
+section#Posty aside {
+    background: none repeat scroll 0 0 #FFF0F5;
     color: #880000;
-    display: block;
     float: right;
     font-family: "DejaVu Sans",sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 30px;
-    margin-left: 755px;
-    margin-top: 80px;
-    padding: 3px 3px 3px 3px;
-    position: absolute;
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 8%;
+    margin-top: 10px;
     text-align: center;
-    width: 257px;
+    width: 32%;
+    position: relative;
 }
 
-#header_home aside img {
+section#Posty aside img {
     display: block;
     margin-top: -78px;
     border-radius: 15px; 
@@ -100,7 +96,7 @@ h1 {
      -webkit-border-radius: 15px;
 }
 
-#header_home aside p.author {
+section#Posty aside p.author {
     color: #880000;
     font-style: italic;
     margin-top: 4%;
@@ -173,32 +169,24 @@ li {
 }
 
 #content3 aside {
-	 border-radius: 10% 10% 10% 10%;
-     -moz-border-radius: 10% 10% 10% 10%;;
-     -webkit-border-radius: 10% 10% 10% 10%;;
-    background: none repeat scroll 0 0 #FFFACD;
+    background: none repeat scroll 0 0 #FFF0F5;
     color: #880000;
-    display: block;
     float: right;
     font-family: "DejaVu Sans",sans-serif;
-    font-size: 14px;
-    font-style: normal;
+    font-size: 12px;
     line-height: 25px;
-    margin-left: 735px;
-    margin-top: 190px;
-    padding: 5px 5px 5px 5px;
-    position: absolute;
-    text-align: left;
-    width: 214px;
+    position: relative;
+    text-align: right;
+    width: 25%;
+    margin-bottom: 6px;
 }
 
 #content3 aside img {
-    display: block;
-    margin-top: -233px;
-    position: absolute;
-    border-radius:25px; 
-     -moz-border-radius:25px; 
-     -webkit-border-radius:25px;
+    background: none repeat scroll 0 0 #FFF0F5;
+    color: #880000;
+    float: right;
+    font-family: "DejaVu Sans",sans-serif;
+    width: 80%;
 }
 
 #content3 aside p.author {
