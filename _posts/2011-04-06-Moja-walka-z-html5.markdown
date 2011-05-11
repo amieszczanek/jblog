@@ -2,11 +2,10 @@
 layout: post
 title: Moja-walka-z-html5
 ---
-
 <aside id="img">
 <img src="../../../../images/bhh5_xlargecover.jpg" alt="[Brian P.Hogan]" />
 </aside>
-<aside id"p">
+<aside id="p">
 &bdquo;In this book, you’re going to find out about all of the ways you can use 
 HTML5 and CSS3 right now,even if your users don’t have browsers
 that can support all of these features yet ...&rdquo;
@@ -20,6 +19,7 @@ that can support all of these features yet ...&rdquo;
 Moją walkę z Html5 zaczęłam od zmiany plików znajdujących sie w katalogu _layout w jBlogu.
 Już na samym początku zaskoczyło mnie jak niewiele trzeba wiedzieć na temat html tworząc sam szablon.
 W pierwszym etapie zamieniłam nagłówki w plikach.html. Bardzo przydatne są strony takie jak: [logooraphos](http://log.logographos.com/pl/design/html5/minikurs-htm5/new-tags-html/). Innym trafionym materiałem do nauki Html5 jest książka [Brian P.Hogan](http://pragprog.com/titles/bhh5/html5-and-css3)
+
 
 
 ## Etapy zmiany szablonu z Html4 na Html5
