@@ -10,11 +10,11 @@
     <!-- <script src="http://code.jquery.com/jquery-1.4.4.min.js"></script> -->
     <style type="text/css">
 
-section#listazdjec {
-    background: none repeat scroll 0 0 black;
-    padding: 13px;
-    width: 480px;
-}
+section#listaZdjec {
+		background: #A8A8FF;
+		padding: 13px;
+		width: 480px;
+	}
 li {
     display: block;
     float: left;
@@ -22,7 +22,8 @@ li {
     margin: 17px;
     position: relative;
     width: 180px;
-    z-index: 10;
+    z-index: 100;
+    overflow: auto;
 }
 img {
     border-color: #999999 #DDDDDD #DDDDDD #999999;
@@ -34,7 +35,8 @@ img {
 li:hover {
     left: 130px;
     top: 130px;
-    z-index: 50;
+    z-index: 100;
+    
 }
 li:hover img {
     background: none repeat scroll 0 0 #CCCCCC;
