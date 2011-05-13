@@ -14,21 +14,19 @@ Sam początek wyświelenia galerii jest zupełnie prosty. Może nie wygląda to 
 [Galeria1](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/galeria1.html)
 Jedyne co narazie zrobiłam to ustawiłam wielkość zdjęcia miniaturka oraz wielkość zdjęcia wyświetlanego.
 <pre>
-&#123;% highlight ruby %&#125;
+{% highlight ruby %}
 .Galeria{
 	width: 60%;
 }
-
 .zdjecie img{
 	width: 150px;
 	height: 120px;
 }
-
 .zdjecie span img{ 
 	width: 300px;
 	height: 340px;
 }
-&#123;% endhighlight %&#125;
+{% endhighlight %}
 </pre>
 
 * Drugi etap
@@ -36,17 +34,14 @@ Jedyne co narazie zrobiłam to ustawiłam wielkość zdjęcia miniaturka oraz wi
 W tym etapie dodałam *position* dla całej galerii oraz dla zdjęć zmieniających pozycję. Dodatkowo ustawiłam marginesy zewnętrzne
 jak i wewnętrzne oraz czcionkę z informacją o zdjęciu.
 <pre>
-&#123;% highlight ruby %&#125;
+{% highlight ruby %}
 .Galeria{
 	position: relative;
 	}
-
 .zdjecie img{
 	padding-top: 2px;
 	margin: 0 5px 5px 0;
-
 }
-
 .zdjecie span{
 	position: absolute;
 	background-color: #FFCC99;
@@ -59,12 +54,11 @@ jak i wewnętrzne oraz czcionkę z informacją o zdjęciu.
 	font-family: "Monotype Corsiva";
 	font-size: 15px;
 }
-
 .zdjecie span img{ 
 	border-width: 0;
 	padding: 2px;
 }
-&#123;% endhighlight %&#125;
+{% endhighlight %}
 </pre>
 
 Przykład: [Galeria2](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/galeria2.html)
@@ -74,12 +68,11 @@ Przykład: [Galeria2](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/gale
 Na tym etapie zajełam się akcją tzn dodałam tag *hover*(pseudoklasa, która definiuje właściwości "najechanych" elementów, np. odnośników (linków))
 oraz *z-index*, które odpowiada za warstwowość zdjęć. 
 <pre>
-&#123;% highlight ruby %&#125;
+{% highlight ruby %}
 .zdjecie:hover img{
 	
 	border-width: 2px;
 	border-color: #804000 #804000 #804000 #9D4F4F;
-
 }
 .zdjecie:hover span{ 
 	visibility: visible;
@@ -87,7 +80,7 @@ oraz *z-index*, które odpowiada za warstwowość zdjęć.
 	left: 390px;
 	z-index: 50;
 }
-&#123;% endhighlight %&#125;
+{% endhighlight %}
 </pre>
 
 Przykład: [Galeria3](http://sigma.inf.ug.edu.pl/~amieszczanek/blog/gallery/galeria3.html)
