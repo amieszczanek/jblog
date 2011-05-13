@@ -223,12 +223,12 @@ h2, h3 {
 }
 
 .pre code {
-	 color: red;
+	color: red;
     border: medium none;
 }
 
 .pre {
-	 color: pink;
+	color: pink;
     border-left: 9px solid #FD9945;
     margin-left: -49px;
     padding: 0 0 0 49px;
