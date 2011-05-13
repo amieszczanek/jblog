@@ -2,52 +2,75 @@
 
  <html lang="pl">
  <head>
-   <meta charset=utf-8">
+   <meta charset="utf-8">
    <title>css galeria</title>
    <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></	 script>
     <![endif]-->
     <!-- <script src="http://code.jquery.com/jquery-1.4.4.min.js"></script> -->
     <style type="text/css">
+    
+.Galeria{
+	position: relative;
+	width: 60%;
+	}
 
-	#listaZdjec {
-	background: none 0 0 repeat scroll #CACAFF;
-	padding: 13px;
-	width: 480px;
-	box-align: center;
-	font-family: "Lucida Handwriting";
-	font-size: 12px;
-}
-li {
-    display: block;
-    float: left;
-    height: 180px;
-    margin: 17px;
-    position: relative;
-    width: 180px;
-    z-index: 10;
+.zdjecie img{
+	padding-top: 2px;
+	margin: 0 5px 5px 0;
+	width: 150px;
+	height: 120px;
 }
 
+.zdjecie span{
+	position: absolute;
+	background-color: #FFCC99;
+	padding: 5px;
+	left: -1000px;
+	border: 1px ridge #804000;
+	visibility: hidden;
+	color: black;
+	text-decoration: none;
+	font-family: "Monotype Corsiva";
+	font-size: 15px;
+}
 
+.zdjecie span img{ 
+	border-width: 0;
+	padding: 2px;
+	width: 300px;
+	height: 340px;
+}
 
-   </style>
+</style>
+</head>
 
+<body>
+<div class="Galeria">
 
- <body>
-  <section id="listaZdjec">
-    <li><img src="pies_1_Ogar-polski_S.jpg" alt="Ogar_Polski" width="180" height="180"/>Ogar_Polski</li>
-    <li><img src="pies_2_Golden-retriever_S.jpg" alt="Golden-retriever" width="180" height="180"/>Golden-retriever</li>
-    <li><img src="pies_3_Norwich-Terrier_S.jpg" alt="Norwich-Terrier" width="180" height="180" />Norwich-Terrier</li>
-    <li><img src="pies_4_Owczarek chorwacki_S.jpg" alt="Owczarek chorwacki" width="180" height="180" />Owczarek chorwacki</li>
-    <li><img src="pies_5_Cocker-spaniel-angielski_S.jpg" alt="Cocker-spaniel-angielski" width="180" height="180" />Cocker-spaniel-angielski</li>
-    <li><img src="pies_6_Pinczer-austriacki_S.jpg" alt="Pinczer-austriacki" width="180" height="180" />Pinczer-austriacki</li>
-    <li><img src="pies_7_Pies-grenlandzki_S.jpg" alt="Pies-grenlandzki" width="180" height="180" />Pies-grenlandzki</li>
-    <li><img src="pies_8_Bullmastiff_S.jpg" alt="Bullmastiff" width="180" height="180" />Bullmastiff</li>
-    <li><img src="pies_9_Szpic-finski.jpg" alt="Szpic-finski" width="180" height="180" />Szpic-finski</li>
-    <li><img src="pies_10_Buldog-amerykanski.jpg" alt="Buldog-amerykanski" width="180" height="180" />Buldog-amerykanski</li>
-    <br style="clear:both;" />
-  </section>
- </body>
-</head> 
+<a class="zdjecie"><img src="pies_1_Ogar-polski_S.jpg"/>
+	<span><img src="pies_1_Ogar-polski_S.jpg" /><br />Ogar_Polski</span></a>
+
+<a class="zdjecie"><img src="pies_2_Golden-retriever_S.jpg" />
+	<span><img src="pies_2_Golden-retriever_S.jpg" /><br />Golden-retriever</span></a>
+
+<br />
+
+<a class="zdjecie"><img src="pies_3_Norwich-Terrier_S.jpg" />
+	<span><img src="pies_3_Norwich-Terrier_S.jpg" /><br />Norwich-Terrier</span></a> 
+
+<a class="zdjecie"><img src="pies_4_Owczarek chorwacki_S.jpg"  />
+	<span><img src="pies_4_Owczarek chorwacki_S.jpg"  /><br />Owczarek chorwacki</span></a>
+
+<br />
+
+<a class="zdjecie"><img src="pies_5_Cocker-spaniel-angielski_S.jpg"  />
+	<span><img src="pies_5_Cocker-spaniel-angielski_S.jpg"  /><br />Cocker-spaniel-angielski</span></a>
+
+<a class="zdjecie"><img src="pies_10_Buldog-amerykanski.jpg"  />
+	<span><img src="pies_10_Buldog-amerykanski.jpg"  /><br />Pinczer-austriacki</span></a>
+
+</div>
+</body>
+
 </html>
-

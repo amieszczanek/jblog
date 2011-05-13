@@ -2,72 +2,102 @@
 
  <html lang="pl">
  <head>
-   <meta charset=utf-8">
+   <meta charset="utf-8">
    <title>css galeria</title>
    <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></	 script>
     <![endif]-->
     <!-- <script src="http://code.jquery.com/jquery-1.4.4.min.js"></script> -->
     <style type="text/css">
-
-img {                             
-   padding: 5px;         
-   background: #FFFFFF;         
-   border: 1px solid #36393D;
-   height: 50%;
-   width: 50%;
-   z-index: 10;  
-}
-#listaZdjec {
-	background-size: 100% 100px;
-	background: none left 0 no-repeat scroll #CACAFF;
-	padding: 10px;
-	width: 480px;
-	box-align: center;
-	font-family: "Lucida Handwriting";
-	font-size: 10px;
-	}
-li {
-    display: block;
-    float: left;
-    height: 180px;
-    margin: 17px;
-    position: relative;
-    width: 180px;
     
-}
-li:hover {
-    left: 100%;
-    top: 2%;
-    z-index: 10;
-}
-li:hover img {
-    background: none repeat scroll 0 0 #CCCCCC;
-    border-color: #EEEEEE #BBBBBB #BBBBBB #EEEEEE;
-    border-style: solid;
-    border-width: 4px;
-    height: 200%;
-    padding: 1px;
-    width: 200%;
-}
-   </style>
+	html {
+		background-image: url('../images/tlo2.png');
+	}
+	.Galeria{
+		border: 3px groove #9D4F4F;
+		position: relative;
+		width: 60%;
+		background-image: url('../images/tlo1.jpg');
+		background-repeat: repeat;
+	}
 
+	.zdjecie img{
+	padding-top: 2px;
+	border: 2px solid;
+	border: #970097;
+	margin: 0 5px 5px 0;
+	width: 150px;
+	height: 120px;
+}
 
- <body>
-  <section id="listaZdjec">
-    <li><img src="pies_1_Ogar-polski_S.jpg" alt=" ">Ogar_Polski</li>
-    <li><img src="pies_2_Golden-retriever_S.jpg" alt=" ">Golden-retriever</li>
-    <li><img src="pies_3_Norwich-Terrier_S.jpg" alt=" ">Norwich-Terrier</li>
-    <li><img src="pies_4_Owczarek chorwacki_S.jpg" alt=" ">Owczarek chorwacki</li>
-    <li><img src="pies_5_Cocker-spaniel-angielski_S.jpg" alt=" ">Cocker-spaniel-angielski</li>
-    <li><img src="pies_6_Pinczer-austriacki_S.jpg" alt=" ">Pinczer-austriacki</li>
-    <li><img src="pies_7_Pies-grenlandzki_S.jpg" alt=" ">Pies-grenlandzki</li>
-    <li><img src="pies_8_Bullmastiff_S.jpg" alt=" ">Bullmastiff</li>
-    <li><img src="Chinski_grzywacz.jpg" alt=" " >ChiĹ„ski_grzywacz</li>
-    <li><img src="buldog_angielski.jpg" alt=" " >buldog_angielski</li>
-    <br style="clear:both;" />
-  </section>
- </body>
-</head> 
+.zdjecie:hover{
+	background-color: transparent;
+}
+
+.zdjecie:hover img{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #804000 #804000 #804000 #9D4F4F;
+
+}
+
+	.zdjecie span{
+		position: absolute;
+		background-color: #FFCC99;
+		padding: 5px;
+		left: -1000px;
+		border: 1px ridge #804000;
+		visibility: hidden;
+		color: black;
+		text-decoration: none;
+		font-family: "Monotype Corsiva";
+		font-size: 15px;
+	}
+
+.zdjecie span img{ 
+	border-width: 0;
+	padding: 2px;
+	width: 300px;
+	height: 340px;
+
+}
+
+.zdjecie:hover span{ 
+	visibility: visible;
+	top: 0;
+	left: 390px;
+	z-index: 50;
+}
+
+</style>
+</head>
+
+<body>
+<div class="Galeria">
+
+<a class="zdjecie"><img src="pies_1_Ogar-polski_S.jpg"/>
+	<span><img src="pies_1_Ogar-polski_S.jpg" /><br />Ogar_Polski</span></a>
+
+<a class="zdjecie"><img src="pies_2_Golden-retriever_S.jpg" />
+	<span><img src="pies_2_Golden-retriever_S.jpg" /><br />Golden-retriever</span></a>
+
+<br />
+
+<a class="zdjecie"><img src="pies_3_Norwich-Terrier_S.jpg" />
+	<span><img src="pies_3_Norwich-Terrier_S.jpg" /><br />Norwich-Terrier</span></a> 
+
+<a class="zdjecie"><img src="pies_4_Owczarek chorwacki_S.jpg"  />
+	<span><img src="pies_4_Owczarek chorwacki_S.jpg"  /><br />Owczarek chorwacki</span></a>
+
+<br />
+
+<a class="zdjecie"><img src="pies_5_Cocker-spaniel-angielski_S.jpg"  />
+	<span><img src="pies_5_Cocker-spaniel-angielski_S.jpg"  /><br />Cocker-spaniel-angielski</span></a>
+
+<a class="zdjecie"><img src="pies_10_Buldog-amerykanski.jpg"  />
+	<span><img src="pies_10_Buldog-amerykanski.jpg"  /><br />Pinczer-austriacki</span></a>
+
+</div>
+</body>
+
 </html>
-
